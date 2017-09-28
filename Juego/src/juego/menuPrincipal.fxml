@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="468.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="juego.MenuPrincipalController">
+   <children>
+      <Label layoutX="247.0" layoutY="38.0" text="Elige una opcion:" />
+      <Button layoutX="230.0" layoutY="83.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="Buscar Partida" />
+      <Button layoutX="230.0" layoutY="203.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="Marcadores" />
+      <Button layoutX="231.0" layoutY="260.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="¿Como se juega?" />
+      <Button layoutX="231.0" layoutY="382.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="Salir del juego" />
+      <Button layoutX="228.0" layoutY="321.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="151.0" text="Cambiar de cuenta" />
+      <Button layoutX="231.0" layoutY="140.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="145.0" text="Crear Partida" />
+   </children>
+</AnchorPane>

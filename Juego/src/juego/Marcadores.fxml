@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="895.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TableView layoutX="90.0" layoutY="80.0" prefHeight="200.0" prefWidth="698.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Puesto" />
+          <TableColumn prefWidth="129.0" text="Usuario" />
+            <TableColumn prefWidth="171.0" text="Total partidas jugadas" />
+            <TableColumn prefWidth="162.0" text="Partidas ganadas" />
+            <TableColumn prefWidth="160.0" text="Partidas perdidas" />
+        </columns>
+      </TableView>
+      <Button layoutX="396.0" layoutY="316.0" mnemonicParsing="false" text="Salir" />
+      <Label layoutX="361.0" layoutY="35.0" text="Mejores judadores " />
+   </children>
+</AnchorPane>

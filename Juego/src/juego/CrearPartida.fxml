@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" focusTraversable="true" prefHeight="348.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Label layoutX="65.0" layoutY="90.0" text="Nombre de la partida:" />
+      <Label layoutX="70.0" layoutY="150.0" text="Habilitar contraseña:" />
+      <RadioButton layoutX="393.0" layoutY="150.0" mnemonicParsing="false" text="No" />
+      <RadioButton layoutX="274.0" layoutY="150.0" mnemonicParsing="false" text="Si" />
+      <TextField layoutX="252.0" layoutY="185.0" prefHeight="31.0" prefWidth="258.0" />
+      <TextField layoutX="242.0" layoutY="200.0" prefHeight="31.0" prefWidth="258.0" visible="false" />
+      <Label layoutX="103.0" layoutY="205.0" text="Contraseña:" />
+      <Button layoutX="165.0" layoutY="272.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="92.0" text="Crear" />
+      <Button layoutX="347.0" layoutY="272.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="92.0" text="salir" />
+      <TextField layoutX="252.0" layoutY="95.0" prefHeight="31.0" prefWidth="258.0" />
+      <Label layoutX="243.0" layoutY="36.0" text="Llena los campos" />
+   </children>
+</AnchorPane>

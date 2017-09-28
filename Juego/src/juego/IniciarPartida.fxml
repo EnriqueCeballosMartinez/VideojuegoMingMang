@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="418.0" prefWidth="717.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TableView layoutX="134.0" layoutY="74.0" prefHeight="200.0" prefWidth="398.0">
+        <columns>
+          <TableColumn prefWidth="112.0" text="Usuario" />
+          <TableColumn prefWidth="178.0" text="Color de fichas" />
+            <TableColumn prefWidth="107.0" text="Estado" />
+        </columns>
+      </TableView>
+      <Button layoutX="283.0" layoutY="328.0" mnemonicParsing="false" text="Comenzar Partida" />
+      <Button layoutX="598.0" layoutY="178.0" mnemonicParsing="false" text="Listo" />
+      <Label layoutX="595.0" layoutY="126.0" text="Presiona" />
+   </children>
+</AnchorPane>
